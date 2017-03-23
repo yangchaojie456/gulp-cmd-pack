@@ -1,0 +1,1 @@
+define("c",["b.js"],function(o,e,n){o("b.js"),console.log("hello module c"),console.log("c finished")}),define("b.js",["a.js"],function(o,e,n){o("a.js").fn(),console.log("hello module b"),console.log("b finished")}),define("a.js",[],function(o,e,n){function l(){console.log("hello module a")}n.exports.fn=l});
